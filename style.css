@@ -3,11 +3,12 @@
     height:300px;
     background-color: rgb(245, 224, 233);
     border: 1px solid  ;
-    margin: 20px;
+    margin: 20px auto;
     border-radius: 15px;
     display: flex;
     justify-content: space-around;  
     align-items: center;
+    
 }
 .fundo{
     background-color: plum;
@@ -16,8 +17,67 @@
     border-radius: 15px;
 }
 img{
-    width:200px;
-    height: 260px;
-    border-radius: 1000px;
-    border: 12px solid plum;
+     height: 100px;
+}
+.Section{
+    background-color: rgb(245, 224, 233);
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    margin: 20px auto;
+    border: 1px solid 
+}
+
+.displayflex{
+      background-color: plum;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+   padding: 10px;
+   margin: 20px ;
+    
+}
+
+.justify-content{
+    background-color: plum;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+  padding: 10px;
+    
+}
+
+.aling-itens{
+      background-color: plum;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+   padding: 10px;
+   margin: 20px;
+}
+.A{
+    margin: 20px auto;
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(245, 224, 233);
+    justify-content: space-around;
+}
+head{
+width: 100%;
+background-color: plum;
+text-align: center;
+}
+.card{
+    width: 20%;
+    height: 33vh;
+    background-color: plum;
+    margin: 2%;
+}
+.card img{
+    display: block;
+    margin: auto;
 }
